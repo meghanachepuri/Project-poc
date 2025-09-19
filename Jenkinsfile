@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     AWS_REGION        = "ap-southeast-2"
-    AWS_ACCOUNT_ID    = "873727239305"
+    AWS_ACCOUNT_ID    = "751269371912"
     ECR_REPO          = "tourism-app"
     EKS_CLUSTER_NAME  = "tourism-cluster"
     IMAGE_URI         = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}:${BUILD_NUMBER}"
